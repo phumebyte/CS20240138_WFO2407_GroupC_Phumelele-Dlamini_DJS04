@@ -1,5 +1,6 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
 import { createBookElement, renderBookList, createOptionElements, toggleTheme } from './tasks.js';
+import './custom/book-preview.js'
 
 let currentPage = 1;
 let filteredBooks = books;
