@@ -1,4 +1,4 @@
-import { authors } from './data.js';
+import { authors } from '../data.js';
 
 class BookPreview extends HTMLElement {
     constructor() {
