@@ -74,6 +74,10 @@ function addEventListeners() {
     document.querySelector('[data-list-items]').addEventListener('click', handleBookClick);
 }
 
+/**
+ * Handles the search form submission.
+ * @param {Event} event - The form submission event.
+ */
 // Function to handle search form submission
 function handleSearch(event) {
     event.preventDefault();
@@ -100,11 +104,6 @@ function handleSearch(event) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     document.querySelector('[data-search-overlay]').open = false;
 }
-
-/**
- * Handles the search form submission.
- * @param {Event} event - The form submission event.
- */
 
 // Function to handle book click
 function handleBookClick(event) {
